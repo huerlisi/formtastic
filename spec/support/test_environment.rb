@@ -1,7 +1,8 @@
 if Formtastic::Util.rails3?
   gem 'rspec', '~> 2.0.0.beta12'
   gem 'rspec-rails', '~> 2.0.0.beta12'
-  
+  gem 'rspec_tag_matchers'
+    
   require "rubygems"
   require "action_controller/railtie"
   require "active_resource/railtie"
